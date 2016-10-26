@@ -1,0 +1,47 @@
+html {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #555;  
+}
+
+#MainMenu {
+    background-color: #FFF;
+}
+
+#MainMenu ul{
+    background-color: #FFFFFF;
+    padding: 15px;
+}
+
+#MainMenu li {
+    display:inline;
+    box-sizing: border-box;
+    margin: 0 10% 0 0;  
+}
+
+h1 {
+    text-align: center; 
+    color: white; 
+    font-family: Impact, Arial, sans-serif;
+     text-shadow: 2px 2px #ff0000, -2px 2px #0000F0; 
+}
+
+#MainMenu a {
+    text-decoration: none;
+    color: #000000; 
+    padding: 5px 15px;
+    font-family: impact, Impact, Arial, sans-serif;
+   
+}
+
+#MainMenu a:hover {
+    background-color: #000;
+    color: white; 
+}
+
+#MainMenu a:focus {
+    background-color: #DDD; 
+    color: #000; 
+}
